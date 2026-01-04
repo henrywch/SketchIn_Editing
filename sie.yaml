@@ -1,0 +1,34 @@
+name: sie
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1  # Change to your specific CUDA version if needed
+  - numpy
+  - pandas
+  - matplotlib
+  - tqdm
+  - jupyter
+  - opencv
+  - protobuf
+  - pip:
+      - diffusers==0.31.0
+      - transformers
+      - peft
+      - sentencepiece
+      - gradio
+      - torchao
+      - lightning
+      - datasets
+      - prodigyopt
+      - wandb
+      - scikit-image
+      - openai
+      - ultralytics
+      - pyiqa

@@ -1,0 +1,21 @@
+name: sam3
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.4
+  - pip
+  - pip:
+      - opencv-python
+      - tqdm
+      - pyyaml
+      - matplotlib
+      - hydra-core
+      - transformers
+      - pillow
+      - git+https://github.com/facebookresearch/sam3.git
